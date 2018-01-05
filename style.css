@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	background: #f7f7f7;
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	margin: 10px;
+}
+
+header .fa {
+	font-size:25px;
+	margin-right:20px;
+}
+.fa-facebook {
+	color:	#3b5998;
+}
+
+.fa-instagram {
+	color: #8a3ab9;
+}
+
+#navbar-custom {
+	background: #770C7A;
+	color: #fff;
+}
+
+.list-custom ul li{
+	font-size: 1.25em;
+	padding:10px 15px;
+	margin:0 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #b1b1b1;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #b1b1b1;
+}
+
+.jumbotron-custom {
+	margin:20px 0 0 0;
+	background-image: url("./img/1.jpg");
+  	background-repeat: no-repeat;
+  	display: block;
+  	background-size:cover;
+  	width: 100%;
+  	padding: 0px;
+  	background-color: #f1f1f1;
+  	border-radius: 5px 5px 0 0;
+}
+
+.jumbotron .offer h5 {
+	margin-top:20px;
+	color: orange;
+}
+
+.vertical-center {
+  min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 70vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.links a {
+	color: #f7f7f7;
+}
+
+.links a:hover {
+	text-decoration: none;
+	color: #b1b1b1;
+}
+
+.links .pad {
+	padding:30px 30px 10px 30px;
+}
+.links .book {
+	background: #E86622;
+}
+
+.links .price {
+	background: #286533;
+}
+
+.links .where {
+	background: #624286;
+}
+
+.prices {
+	padding-top: 30px;
+	background: url("./img/2.jpg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+table {
+	color: orange;
+	text-align: center;
+	margin:0 auto;
+	width:75%;
+	margin-bottom: 20px;
+}
+
+table th {
+	border-bottom: 1px solid black;
+	width: 50%;
+}
+
+.programare {
+	background-color: #f1f1f1;
+	padding: 50px;
+}
+
+footer {
+	margin-bottom: 20px;
+	background: #b1b1b1;
+	border-bottom: 5px solid  #770C7A; 
+}
+
+footer .b {
+	padding:5px 50px;
+}
+
+footer .social {
+	font-size: 1.5em;
+}
